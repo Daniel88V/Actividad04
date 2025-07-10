@@ -11,11 +11,14 @@ def agregar_paciente():
         else:
             print("No hay nadie")
 
-    def get_clientes(self):
-        return self.clientes
-    def mostar_info(self):
-        print(f"Nombre{self.nombre},Telefono{self.telefono},Identificacion{self.identificacion},Edad{self.edad} ")
-
+    def mostar_info():
+        if len(cola_pacientes) >0:
+            print("pacientes en la cola:")
+            for pacientes in cola_pacientes:
+                print(pacientes)
+                print()
+            else:
+                print("No hay nadie, ingresa a alguien")
 class clientes:
     def __init__(self, nombre, telefono,identificacion,edad):
 
