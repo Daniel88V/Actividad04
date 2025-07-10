@@ -7,6 +7,10 @@ def agregar_paciente():
     def atender_paciente():
         if len(cola_pacientes) > 0: #len sirve para ver cuantos hay en la lista
             paciente = cola_pacientes.pop(0)
+            print(f"Atendido {paciente}")
+        else:
+            print("No hay nadie")
+
     def get_clientes(self):
         return self.clientes
     def mostar_info(self):
