@@ -1,4 +1,5 @@
 cola_pacientes = []
+
 def agregar():
     nombre = input("Ingrese el nombre del paciente: ")
     cola_pacientes.append(nombre)
@@ -12,12 +13,12 @@ def atender():
             print("No hay nadie")
 
 def mostar_info():
-        if len(cola_pacientes) >0:
+        if len(cola_pacientes) > 0:
             print("pacientes en la cola:")
-            for pacientes in cola_pacientes:
-                print(pacientes)
+            for paciente in cola_pacientes:
+                print(paciente)
                 print()
-            else:
+        else:
                 print("No hay nadie, ingresa a alguien")
 
 def menu():
