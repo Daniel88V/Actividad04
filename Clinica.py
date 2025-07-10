@@ -1,9 +1,12 @@
 cola_pacientes = []
 def agregar_paciente():
     nombre = input("Ingrese el nombre del paciente: ")
+    cola_pacientes.append(nombre)
+    print("agregado")
 
-    def get_nombre(self):
-        return self.nombre
+    def atender_paciente():
+        if len(cola_pacientes) > 0: #len sirve para ver cuantos hay en la lista
+            paciente = cola_pacientes.pop(0)
     def get_clientes(self):
         return self.clientes
     def mostar_info(self):
