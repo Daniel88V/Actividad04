@@ -33,8 +33,7 @@ class Farmacia:
         print("---Asignar medicamento a cliente---")
 
     def mostrar_medicamentos(self):
-        lista_medicamentos = self.medicamento
-        for medicamento in range(lista_medicamentos):
+        for medicamento in reversed(self.medicamento):
             print(medicamento)
 def main():
     mi_clinica = Farmacia("Farmacia de la clinica")
