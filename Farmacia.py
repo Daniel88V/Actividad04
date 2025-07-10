@@ -40,7 +40,7 @@ def main():
         print("4. Salir")
         eleccion = input("Seleccione una opción: ")
         if eleccion == "1":
-            mi_clinica.buscar_medicamento()
+            mi_clinica.registrar_medicina()
         elif eleccion == "4":
             print("Saliendo del sistema...")
             break
