@@ -4,6 +4,10 @@ class Recepción:
         self.telefono = telefono
         self.identificacion = identificacion
         self.edad = edad
+        self.clientes = []
+
+    def agregar_cliente(self, cliente):
+        self.clientes.append(cliente)
 
 
 
