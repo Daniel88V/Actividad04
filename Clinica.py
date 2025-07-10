@@ -16,6 +16,8 @@ class Recepción:
     def mostar_info(self):
         print(f"Nombre{self.nombre},Telefono{self.telefono},Identificacion{self.identificacion},Edad{self.edad} ")
 
+class clientes:
+    def __init__(self, nombre, telefono,identificacion,edad):
 
 
 
@@ -28,8 +30,6 @@ def menu():
         print("3.Mostrar Cola")
         print("4.Salir")
         op = input("Elija una opción: ")
-        if op == "1":
-            Recepción.agregar_cliente()
 
 
 
