@@ -14,7 +14,8 @@ class Recepción:
     def get_clientes(self):
         return self.clientes
     def mostar_info(self):
-        print(f"Nombre{self.nombre}, ")
+        print(f"Nombre{self.nombre},Telefono{self.telefono},Identificacion{self.identificacion},Edad{self.edad} ")
+
 
 
 
