@@ -1,6 +1,6 @@
 cola_pacientes = []
-    def agregar_cliente(self, cliente):
-        self.clientes.append(cliente)
+def agregar_paciente():
+    nombre = input("Ingrese el nombre del paciente: ")
 
     def get_nombre(self):
         return self.nombre
