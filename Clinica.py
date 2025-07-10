@@ -1,10 +1,10 @@
 cola_pacientes = []
-def agregar_paciente():
+def agregar():
     nombre = input("Ingrese el nombre del paciente: ")
     cola_pacientes.append(nombre)
     print("agregado")
 
-    def atender_paciente():
+def atender():
         if len(cola_pacientes) > 0: #len sirve para ver cuantos hay en la lista
             paciente = cola_pacientes.pop(0)
             print(f"Atendido {paciente}")
@@ -28,16 +28,11 @@ def menu():
         print("3.Mostrar Cola")
         print("4.Salir")
         op = input("Elija una opción: ")
-if op == "1":
-        agregar_paciente()
+        if op == "1":
+         agregar_paciente()
         elif op == "2":
             atender_paciente()
         elif op == "3":
-            mostrar_cola()
-            elif op == "4":
-            print("Saliendo, ten un buen dia")
-            break
-else:
-print("verifica lo ingresado")
+
 
 
