@@ -1,4 +1,4 @@
-def menu:
+def menu():
     while True:
         print ("Bienvenido al menu de la Recepción")
         print("1.Agregar Pacientes")
