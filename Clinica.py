@@ -19,11 +19,6 @@ def agregar_paciente():
                 print()
             else:
                 print("No hay nadie, ingresa a alguien")
-class clientes:
-    def __init__(self, nombre, telefono,identificacion,edad):
-
-
-
 
 def menu():
     while True:
