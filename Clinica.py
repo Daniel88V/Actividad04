@@ -1,1 +1,1 @@
-print ("Bienvenido a la recepción")
+print ("Bienvenido a la")
