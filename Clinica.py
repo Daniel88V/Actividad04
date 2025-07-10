@@ -1,3 +1,6 @@
+def menu:
+    while True:
+
 print ("Bienvenido al menu de la Recepción")
 print("1.Agregar Pacientes")
 print("2.Atender Pacientes")
@@ -17,7 +20,7 @@ elif op == 2:
     print(f"el telefono del paciente {telefono}")
     print(f"Paciente {id} esta siendo atendido")
 elif op == 3:
-    print(f"Listado de los pacientes")
+    print("Listado de los pacientes")
 if op == 4:
     print("Estamos Saliendo")
     
