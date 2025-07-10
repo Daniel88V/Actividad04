@@ -11,7 +11,7 @@ def atender():
         else:
             print("No hay nadie")
 
-    def mostar_info():
+def mostar_info():
         if len(cola_pacientes) >0:
             print("pacientes en la cola:")
             for pacientes in cola_pacientes:
@@ -28,11 +28,20 @@ def menu():
         print("3.Mostrar Cola")
         print("4.Salir")
         op = input("Elija una opción: ")
+
         if op == "1":
-         agregar_paciente()
+         agregar()
         elif op == "2":
-            atender_paciente()
+            atender()
         elif op == "3":
+            mostar_info()
+        elif op == "4":
+            print("Nos vemos tu")
+            break
+        else:
+            print("Verifica lo ingresado")
+
+menu()
 
 
 
