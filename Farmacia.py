@@ -10,7 +10,10 @@ class Medicamento:
         print(f"Medicamento: {self._medicamento} agregado exitosamente")
     def __str__(self):
         return f"Medicamento: {self._medicamento} Fecha de Vencimiento: {self._FechaVec}"
-
+class Farmacia:
+    def __init__(self, nombre_farmacia):
+        self._nombre_farmacia = nombre_farmacia
+        self.clientes = []
 def main():
     mi_clinica = Medicamento("Farmacia de la clinica")
     print(f"Bienvenido a la farmacia")
@@ -23,3 +26,8 @@ def main():
         eleccion = input("Seleccione una opción: ")
         if eleccion == "1":
             mi_clinica.ingreso_medicamento()
+        elif eleccion == "4":
+            print("Saliendo del sistema...")
+            break
+if __name__ == "__main__":
+    main()
