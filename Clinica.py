@@ -1,11 +1,4 @@
-class Recepción:
-    def __init__(self, nombre, telefono,identificacion,edad):
-        self.nombre = nombre
-        self.telefono = telefono
-        self.identificacion = identificacion
-        self.edad = edad
-        self.clientes = []
-
+cola_pacientes = []
     def agregar_cliente(self, cliente):
         self.clientes.append(cliente)
 
