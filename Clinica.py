@@ -9,6 +9,16 @@ class Recepción:
     def agregar_cliente(self, cliente):
         self.clientes.append(cliente)
 
+    def get_nombre(self, nombre):
+        self.nombre = nombre
+
+    def get_telefono(self, telefono):
+        self.telefono = telefono
+
+    def get_identificacion(self, identificacion):
+        self.identificacion = identificacion
+
+
 
 
 def menu():
