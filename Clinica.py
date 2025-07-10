@@ -1,3 +1,7 @@
+class
+
+
+
 def menu():
     while True:
         print ("Bienvenido al menu de la Recepción")
