@@ -29,6 +29,12 @@ class Farmacia:
         nueva_medicina = Medicamento(nombre, tipo, fechavec)
         self.medicamento.append(nueva_medicina)
         print(f"Medicamento: {nombre} agregado exitosamente")
+    def entregar_medicamento(self):
+        print("---Asignar medicamento a cliente---")
+
+    def mostrar_medicamentos(self):
+        for medicamento in self.medicamento:
+            print(medicamento)
 def main():
     mi_clinica = Farmacia("Farmacia de la clinica")
     print(f"Bienvenido a la farmacia")
