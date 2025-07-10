@@ -33,7 +33,7 @@ class Farmacia:
         print("---Asignar medicamento a cliente---")
 
     def mostrar_medicamentos(self):
-        for medicamento in self.medicamento:
+        for medicamento in range(self.medicamento):
             print(medicamento)
 def main():
     mi_clinica = Farmacia("Farmacia de la clinica")
@@ -47,6 +47,8 @@ def main():
         eleccion = input("Seleccione una opción: ")
         if eleccion == "1":
             mi_clinica.registrar_medicina()
+        elif eleccion == "3":
+            mi_clinica.mostrar_medicamentos()
         elif eleccion == "4":
             print("Saliendo del sistema...")
             break
