@@ -28,6 +28,16 @@ def menu():
         print("3.Mostrar Cola")
         print("4.Salir")
         op = input("Elija una opción: ")
-
+if op == "1":
+        agregar_paciente()
+        elif op == "2":
+            atender_paciente()
+        elif op == "3":
+            mostrar_cola()
+            elif op == "4":
+            print("Saliendo, ten un buen dia")
+            break
+else:
+print("verifica lo ingresado")
 
 
