@@ -1,4 +1,9 @@
-class
+class Recepción:
+    def __init__(self, nombre, telefono,identificacion,edad):
+        self.nombre = nombre
+        self.telefono = telefono
+        self.identificacion = identificacion
+        self.edad = edad
 
 
 
